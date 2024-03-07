@@ -53,8 +53,8 @@ public class TelevisorEncapsulado {
 		}
 		
 		public void mostrar() {
-			System.out.println("Volume: " + volume
-					+ "\nCanal: " + canal);
+			System.out.println("Volume: " + getVolume()
+					+ "\nCanal: " + getCanal());
 
 
 	}
